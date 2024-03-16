@@ -4,7 +4,7 @@ import Applycard from './applycard'
 
 const Home = () => {
   return (
-    <section className="self-stretch flex justify-center pt-6 ">
+    <section className="self-stretch flex justify-center items-center w-full ">
        <Decenter/>
        <Applycard/>
       </section>

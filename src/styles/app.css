@@ -13,6 +13,10 @@ body {
   border-width: 0;
 }
 
+.bg-hero-section {
+  background-image: url(../assets/images/bg-hero.png)
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
