@@ -1,13 +1,14 @@
-import Fifthscreen from '@/components/fifthscreen'
-import Footer from '@/components/footer'
-import Footerpart from '@/components/footerpart'
-import Fourthscreen from '@/components/fourthscreen'
-import Home from '@/components/home'
-import Navbar from '@/components/navbar'
-import Secondscreen from '@/components/secondscreen'
-import Sixthscreen from '@/components/sixthscreen'
-import Thirdscreen from '@/components/thirdscreen'
-import React from 'react'
+import QuillShield from "@/components/QuillShield";
+import Fifthscreen from "@/components/fifthscreen";
+import Footer from "@/components/footer";
+import Footerpart from "@/components/footerpart";
+import Fourthscreen from "@/components/fourthscreen";
+import Home from "@/components/home";
+import Navbar from "@/components/navbar";
+import Secondscreen from "@/components/secondscreen";
+import Sixthscreen from "@/components/sixthscreen";
+import Thirdscreen from "@/components/thirdscreen";
+import React from "react";
 
 const Derby = () => {
   return (
@@ -30,6 +31,7 @@ const Derby = () => {
       <div>
         <Fifthscreen />
       </div>
+      <QuillShield />
       <div className="py-8">
         <Sixthscreen />
       </div>
@@ -74,6 +76,6 @@ const Derby = () => {
       </section>
     </div>
   );
-}
+};
 
-export default Derby
+export default Derby;
