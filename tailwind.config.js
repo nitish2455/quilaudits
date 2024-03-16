@@ -17,6 +17,20 @@ module.exports = {
         }
       }
     },
+    screens: {
+      mq1575: {
+        raw: "screen and (max-width: 1575px)",
+      },
+      mq1275: {
+        raw: "screen and (max-width: 1275px)",
+      },
+      mq825: {
+        raw: "screen and (max-width: 825px)",
+      },
+      mq450: {
+        raw: "screen and (max-width: 450px)",
+      },
+    },
   },
   plugins: [],
 }

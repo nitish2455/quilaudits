@@ -2,7 +2,7 @@ import React from 'react'
 
 const Cards = () => {
   return (
-    <div class="w-[400px] rounded-xl border border-white   [background:linear-gradient(#0a0917,_#0a0917),_#f8f8f8] shadow-blue  flex flex-col items-end justify-start  text-center  font-poppins   ">
+    <div class="w-[400px] rounded-xl border border-white shadow-lg shadow-gray-600  [background:linear-gradient(#0a0917,_#0a0917),_#f8f8f8]   flex flex-col items-end justify-start  text-center  font-poppins   ">
     <a href="#">
         <img class="rounded-xl overflow-hidden w-[400px]" src="/event.svg" alt="" />
     </a>
@@ -13,7 +13,7 @@ const Cards = () => {
              Dubai Token 2049
             </div>
           </div>
-          <div className=" text-2xl whitespace-nowrap flex flex-col justify-center items-center font-medium text-transparent !bg-clip-text [background:linear-gradient(#fff,_#fff),_#2d3648] [-webkit-background-clip:text] [-webkit-text-fill-color:transparent]  mq450:text-base">
+          <div className=" pb-4 text-2xl whitespace-nowrap flex flex-col justify-center items-center font-medium text-transparent !bg-clip-text [background:linear-gradient(#fff,_#fff),_#2d3648] [-webkit-background-clip:text] [-webkit-text-fill-color:transparent]  mq450:text-base">
            Super Mixer
           </div>
         </div>

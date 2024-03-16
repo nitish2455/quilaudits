@@ -2,7 +2,7 @@ import React from 'react'
 
 const Decenter = () => {
   return (
-    <div className='pb-6 pt-8 flex-1 bg-black bg-opacity-80 '>
+    <div className='pb-6 pt-8 flex-1 bg-black bg-opacity-80   '>
       <div className='flex items- flex-col text-start justify-center items-center'>
         <div className='border-b pb-2 border-white'>
         <p className='text-white text-4xl py-3 font-bold'>Decentralised Derby</p>
